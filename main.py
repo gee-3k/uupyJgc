@@ -13,9 +13,10 @@ VSCodium has more stable behavior for me, faster to edit text, and moving cursor
 """
 
 # Part to run next (homework) tasks
-import task001, module_1_3
+import task001, task002, module_1_3
 
 if __name__ == "__main__":
     print( "\nHello World !" )
     # task001.start()
+    task002.start()
     module_1_3.start()
