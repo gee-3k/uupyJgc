@@ -7,7 +7,7 @@ def start():
     if __name__ != "__main__":
         print( f"\n=* {__name__} *=")
 
-    # variables
+    # strings & indexes
     print( "Strings & Indexes" )
     #
     example = "Some String"
