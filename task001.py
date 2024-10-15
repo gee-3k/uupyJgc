@@ -4,7 +4,8 @@ implemented by gee3k (c) 2024-2025
 """
 
 def start():
-    print( "\n=* task001 *=" )
+    if __name__ != "__main__":
+        print( f"\n=* {__name__} *=")
 
     # 1st program
     print( "1st program :", 9 ** 0.5 * 5 )

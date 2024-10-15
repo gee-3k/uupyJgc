@@ -11,9 +11,11 @@ installed and tuned: PyCharm, git, py
 IMHO, PyCharm is not good – has freezes sometime, i suppose it because of JavaVM
 VSCodium has more stable behavior for me, faster to edit text, and moving cursor across the code
 """
-print( "Hello World !" )
-
 
 # Part to run next (homework) tasks
-import task001
-task001.start()
+import task001, module_1_3
+
+if __name__ == "__main__":
+    print( "\nHello World !" )
+    # task001.start()
+    module_1_3.start()
