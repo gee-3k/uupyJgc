@@ -14,7 +14,7 @@ import t001flint, t002vars, t003stridx, module_1_3, module_1_4, module_1_5
 
 if __name__ == "__main__":
     print( "\nHello World !" )
-    # t001flint.start()
+    t001flint.start()
     t002vars.start()
     module_1_3.start()
     t003stridx.start()
