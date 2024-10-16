@@ -39,7 +39,7 @@ def start():
            f"\n\tvar. type : { type( mutable_list ) }",
            )
 
-    print( "checking mutable tuple content",
+    print( "checking mutable tuple content : immutable_var",
            f"\n\tvalue : { immutable_var }",
            f"\n\tvar. type : { type( immutable_var ) }"
            )
