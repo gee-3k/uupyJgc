@@ -10,7 +10,8 @@ installed and tuned: PyCharm, git, py
 """
 
 # Part to run next (homework) tasks
-import t001flint, t002vars, t003stridx, module_1_3, module_1_4, module_1_5
+import t001flint, t002vars, t003stridx
+import module_1_3, module_1_4, module_1_5, module_1_6
 
 if __name__ == "__main__":
     print( "\nHello World !" )
@@ -20,3 +21,4 @@ if __name__ == "__main__":
     t003stridx.start()
     module_1_4.start()
     module_1_5.start()
+    module_1_6.start()
