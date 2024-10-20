@@ -32,7 +32,7 @@ def start():
     print( "creating variable with assigned data :\n"+
            "\tmy_set = { 4, 2, 7, 5, 'str', True, 5, 3, 7, 6, 2, 4, 0, 8, 6, 'str', True }"
            )
-    my_set = my_set = { 4, 2, 7, 5, 'str', True, 5, 3, 7, 6, 2, 4, 0, 8, 6, 'str', True }
+    my_set = { 4, 2, 7, 5, 'str', True, 5, 3, 7, 6, 2, 4, 0, 8, 6, 'str', True }
     print( "\tcreated 'my_set' looks like :", my_set )
     #
     print( "adding multiple values at once w/ update( [ 9, 11 ] ) " )
