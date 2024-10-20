@@ -11,7 +11,7 @@ installed and tuned: PyCharm, git, py
 
 # Part to run next (homework) tasks
 import t001flint, t002vars, t003stridx
-import module_1_3, module_1_4, module_1_5, module_1_6
+import module_1_3, module_1_4, module_1_5, module_1_6, module_1_fin
 
 if __name__ == "__main__":
     print( "\nHello World !" )
@@ -22,3 +22,4 @@ if __name__ == "__main__":
     module_1_4.start()
     module_1_5.start()
     module_1_6.start()
+    module_1_fin.start()
