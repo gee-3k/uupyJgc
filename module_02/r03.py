@@ -8,8 +8,8 @@ def run_03():
     if __name__ != "__main__":
         print( f"\n=* {__name__} *=")
 
-    # module 02 run lesson 02
-    print( ":: Module 02 ( basic operators and program flow )" )
+    # module 02 run lesson 03
+    print( ":: Module 02 run 03 ( basic operators and program flow )" )
     print( "\tThe goal to understand and apply while loop and its break/continue\n" )
 
     my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
