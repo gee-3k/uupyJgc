@@ -36,3 +36,4 @@ import module_02
 
 if __name__ == "__main__":
     module_02.run_02()
+    module_02.run_03()
