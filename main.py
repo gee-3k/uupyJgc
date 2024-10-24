@@ -2,13 +2,7 @@
 urban university – python Junior grade course
 implemented by gee3k (c) 2024-2025
 """
-if __name__ == "__main__":
-    print( 'Hi, PyCharm' )
-    x = 43
-    y = 32
-    print( x * y )
-    print( "End line" )
-#
+
 """
 Part "Module Zero"
 have registered GitHub
@@ -29,3 +23,16 @@ if __name__ == "__main__":
     module_1_6.start()
     module_1_fin.start()
 """
+
+if __name__ == "__main__":
+    print( 'Hi, PyCharm' )
+    x = 43
+    y = 32
+    print( x * y )
+    print( "End line" )
+#
+
+import module_02
+
+if __name__ == "__main__":
+    module_02.run_02()
