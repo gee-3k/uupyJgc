@@ -23,7 +23,7 @@ def inp( vart_idx ):
 # program flow if/elif/else
 def run_02():
     if __name__ != "__main__":
-        print( f"\n=* {__name__} *=")
+        print( f"\n=* { __name__ } *=" )
 
     # module 02 run lesson 02
     print( ":: Module 02 ( basic operators and program flow )" )
