@@ -29,6 +29,29 @@ def run_02():
     print( ":: Module 02 ( basic operators and program flow )" )
     print( "\tThe goal to understand and apply conditional constructions of an application or program flow\n" )
 
+    # refactored to in-loop checking w/ possibly `out of range` at calling inp()
+    tl = list()
+    for i in range( len( vart ) ):
+        inp_data = inp( i+1 )
+        if inp_data != -1:
+            tl.append( inp_data )
+        else:
+            print( "ERRor: in range" )
+
+    if tl[ 0 ] == tl[ 1 ] and tl[ 1 ] == tl[ 2 ] and tl[ 2 ] == tl[ 0 ]:
+        print( 3 )
+    elif tl[ 0 ] == tl[ 1 ] and tl[ 0 ] != tl[ 2 ] \
+        or tl[ 0 ] == tl[ 2 ] and tl[ 0 ] != tl[ 1 ] \
+        or tl[ 1 ] == tl[ 2 ] and tl[ 1 ] != tl[ 0 ]:
+        print( 2 )
+    elif tl[ 0 ] != tl[ 1 ] and tl[ 1 ] != tl[ 2 ] and tl[ 2 ] != tl[ 0 ]:
+        print( 0 )
+
+"""
+    # before refactoring:
+    # have to check returned result from inp() for -1 each time
+    # to ensure returned data, but not 'out of range' error
+    
     first = inp( 1 )
     second = inp( 2 )
     third = inp( 3 )
@@ -41,6 +64,7 @@ def run_02():
         print( 2 )
     elif first != second and second != third and third != first:
         print( 0 )
+"""
 
 if __name__ == "__main__":
     run_02()
