@@ -23,7 +23,6 @@ if __name__ == "__main__":
     module_1_6.start()
     module_1_fin.start()
 """
-
 if __name__ == "__main__":
     print( 'Hi, PyCharm' )
     x = 43
@@ -31,9 +30,9 @@ if __name__ == "__main__":
     print( x * y )
     print( "End line" )
 #
-
 import module_02
-
 if __name__ == "__main__":
     module_02.run_02()
     module_02.run_03()
+    module_02.run_04()
+#
